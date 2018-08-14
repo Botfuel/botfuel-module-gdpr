@@ -1,0 +1,35 @@
+{
+  "name": "botfuel-module-gdpr",
+  "version": "1.0.0",
+  "description": "GDPR module for Botfuel Dialog",
+  "main": "index.js",
+  "repository": "git@github.com:Botfuel/botfuel-module-gdpr.git",
+  "author": "sysadmin@botfuel.io",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "test": "BOTFUEL_APP_TOKEN=TEST_BOT BOTFUEL_APP_ID=test BOTFUEL_APP_KEY=test jest",
+    "style": "eslint src && eslint tests",
+    "release": "yarn test && yarn publish --conventional-commits --changelog-preset=angular"
+  },
+  "peerDependencies": {
+    "botfuel-dialog": ">=7.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "botfuel-dialog": ">=7.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.13.0",
+    "eslint-plugin-node": "^5.1.0",
+    "jest": "^23.5.0",
+    "sinon": "^6.1.5"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
