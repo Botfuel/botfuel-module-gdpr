@@ -10,6 +10,9 @@ The consents (yes/no, text of consent and date) are stored in the brain for each
 
 You can specify multiple consents by extending the `GDPRDialog` and adding more entities. The messages can be customized by extending the `GDPRView`.
 
+## Resources
+* [GDPR module documentation](http://docs.botfuel.io/dialog/modules/gdpr)
+
 ## About modules
 
 See the [Modules Overview](http://docs.botfuel.io/dialog/modules/overview).
