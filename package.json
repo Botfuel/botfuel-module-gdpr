@@ -1,6 +1,6 @@
 {
   "name": "botfuel-module-gdpr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GDPR module for Botfuel Dialog",
   "main": "index.js",
   "repository": "git@github.com:Botfuel/botfuel-module-gdpr.git",
